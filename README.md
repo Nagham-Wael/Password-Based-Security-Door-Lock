@@ -1,5 +1,5 @@
 # Password-Based-Security-Door-Lock
-First,keypad and LCD interface with MC1,user enters the password(Password of 5 digits from 0 to 9)and it appears on LCD.
+First,keypad and LCD interface with MC1,user enters the password(Password of 5 digits from 0 to 9)and it appears on LCD.\
 Second,when the password is entered correct twice,it will be sent using UART to MC2 and saved in the EEPROM.
 Entering a new password will be done only once in the whole life, unless the user choosed to change it.
 Third,the main options appear and the user chooses. Once he chooses something,he enters the password using keypad and appears on LCD.Then,it will be sent to MC2 using UART to check it and compare it with the one that is saved in the EEPROM.
