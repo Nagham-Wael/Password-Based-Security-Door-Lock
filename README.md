@@ -7,6 +7,6 @@ If it is entered wrong for 3 times,MC1 will send a flag to MC2 using UART that i
 If he entered it right for less than 3 times error,if he choosed:\
 1- *:It will return to the first step and will save a new password.\
 2-%:MC1 will send to MC2,so the motor rotates clockwise for 15 secs.Then,the motor stops for 3 secs.Then,the motor rotates anti-clockwise for 15 secs.
-Then,the system returns to the main options.\
+Then,the system returns to the main options.
 
 Password Based Security Door Lock on 2 ATMEGA16 microcontrollers, one "HMI" for user interfacing using LCD and Keypad and the other "Controller" for storing data in the external M24C16 EEPROM controlling the DC motor and Buzzer which is used for alarm,2020. Drivers Designed and Implemented for project: Keypad, LCD, Timer, UART, I2C, External EEPROM
